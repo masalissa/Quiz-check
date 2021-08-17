@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div>
+    <span class="span" id="m"></span>:<span class="span" id="s"></span>
+</div>
+        <h2>Question <span id="numberOfQuestion"></span> of <span id="totalOfQuestions"></span></h2>
+
+
+
+        <h3 id="question"></h3>
+        <div class="container-options">
+            <input type="radio" name="option" id="a" class="option">
+            <label for="a" id="text_a"></label>
+        </div>
+
+        <div class="container-options">
+            <input type="radio" name="option" id="b" class="option">
+            <label for="b" id="text_b"></label>
+        </div>
+        <div class="container-options">
+            <input type="radio" name="option" id="c" class="option">
+            <label for="c" id="text_c"></label>
+        </div>
+        <div class="container-options">
+            <input type="radio" name="option" id="d" class="option">
+            <label for="d" id="text_d"></label>
+        </div>
+
+        <button id="btn">Next</button>
+        <button id="btnNew" onclick="location.reload();">FINSH</button>
+        <p id="score"></p>
+    </div>
+
+
+
+
+   
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

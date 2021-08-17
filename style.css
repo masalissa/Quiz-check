@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://cdn.ida2at.com/media/2020/10/%D8%B4%D8%B7%D8%B1%D9%86%D8%AC.jpg");
+
+}
+.container{
+    border:3px solid black;
+    width:300px;
+   
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+    padding:10px;
+    color:white
+}
+#question{
+    margin-top: 20px;
+}
+.container div{
+    margin: 20px;
+}
+.container div label{
+    display: block;
+    background-color:black;
+   
+    width:107%;
+    color:white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+#score{
+    margin-top: 20px;
+}
+
+#btn{
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+   
+   
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color:red;
+    color:white;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+   
+   
+    cursor: pointer;
+
+}
+.green{
+    background-color:green;
+    color:white;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+   
+   
+    cursor: pointer;
+
+}
+#btnNew{
+    display: none;
+}
+
+.span{
+    border:2px solid black;
+    font-size: 20px;
+    padding:5px;
+    border-radius: 5px;
+}
